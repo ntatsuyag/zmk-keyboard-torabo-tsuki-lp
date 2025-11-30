@@ -23,8 +23,8 @@
 &none  &none           &none         &none         &none        &none                                   &none        &none  &none      &none     &none                 &none
 &none  &kp Q           &kp W         &kp E         &kp R        &kp T                                   &kp Y        &kp U  &kp I      &kp O     &kp P                 &none
 &none  &kp A           &kp S         &kp D         &kp F        &kp G             &none        &none    &kp H        &kp J  &kp K      &kp L     &kp SEMI              &none
-&none  &kp Z           &kp X         &kp C         &kp V        &kp B             &kp TAB      &tog 1   &kp N        &kp M  &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &none
-&none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 RCTRL  &lt 1 LANGUAGE_2  &lt 3 SPACE  &kp RET  &lt 2 LANG1  &none  &none      &kp APOS  &kp EQUAL             &none
+&none  &kp Z           &kp X         &kp C         &kp V        &kp B             &kp TAB      &kp RET  &kp N        &kp M  &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &none
+&none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 RCTRL  &lt 1 LANGUAGE_2  &lt 3 SPACE  &tog 1   &lt 2 LANG1  &none  &none      &kp APOS  &kp EQUAL             &none
             >;
         };
 
@@ -50,11 +50,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                   &trans    &trans     &trans         &trans   &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12                  &kp HOME  &kp PG_UP  &kp PAGE_DOWN  &kp END  &trans  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans  &trans    &trans     &trans         &trans   &trans  &trans
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &trans  &trans    &trans     &trans         &trans   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans    &trans     &trans         &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans    &trans     &trans         &trans   &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12                      &kp HOME  &kp PG_UP  &kp PAGE_DOWN  &kp END  &trans  &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans      &trans    &trans     &trans         &trans   &trans  &trans
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &sys_reset  &trans    &trans     &trans         &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans      &trans    &trans     &trans         &trans   &trans  &trans
             >;
         };
     };
