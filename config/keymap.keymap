@@ -30,11 +30,11 @@
 
         layer_1 {
             bindings = <
-&trans        &trans        &trans          &trans          &trans           &trans                  &trans  &trans  &trans     &trans     &trans  &trans
-&trans        &trans        &trans          &msc SCRL_UP    &trans           &trans                  &trans  &trans  &mkp MCLK  &trans     &trans  &trans
-&trans        &trans        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
-&trans        &trans        &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
-&out OUT_USB  &out OUT_BLE  &bt BT_NXT      &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
+&trans        &trans        &trans          &trans          &trans           &trans                  &trans        &trans  &trans     &trans     &trans  &trans
+&trans        &trans        &trans          &msc SCRL_UP    &trans           &trans                  &bt BT_SEL 0  &trans  &mkp MCLK  &trans     &trans  &trans
+&trans        &trans        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans        &trans        &trans          &trans          &trans           &trans  &trans  &trans  &bt BT_SEL 2  &trans  &trans     &trans     &trans  &trans
+&out OUT_USB  &out OUT_BLE  &bt BT_NXT      &trans          &trans           &trans  &trans  &trans  &trans        &trans  &trans     &trans     &trans  &trans
             >;
         };
 
